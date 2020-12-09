@@ -1,0 +1,12 @@
+.h1 {
+  font-size: 60px; }
+
+body {
+  color: white;
+  background-color: #004466;
+  -webkit-transform: rotate(120deg);
+          transform: rotate(120deg);
+  -webkit-filter: blur(1px);
+          filter: blur(1px); }
+
+/*# sourceMappingURL=all.css.map */
