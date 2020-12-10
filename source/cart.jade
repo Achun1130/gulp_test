@@ -1,0 +1,15 @@
+extend layout.jade
+
+block navbar
+    - var path = 'cart.html' 
+    include partials/navbar.jade
+
+block content
+    .container.mt-5
+        .card-columns
+            each item in ks
+                .card
+                    img.card-img-top(src='#{ item.Picture1 }' alt='#{ item.Name }')
+                    .card-body
+                        h5.card-title #{ item.Name }
+                        p.card-text #{ item.Description }

@@ -1,9 +1,15 @@
-@import "inbox";
-$primary-color: white;
+@import "lightbox";
+// Required
+@import "functions";
+@import "./helpers/variables";
+@import "mixins";
+@import "bootstrap";
+
+@import "./helpers/utilities";
+
+$primary-color: #004466;
 
 body {
-    color: $primary-color;
-    background-color: $secondary-color;
-    transform: rotate(120deg);
-    filter: blur(1px);
+    color: $primary-color!important;
+    font-weight: bold!important;
 }
